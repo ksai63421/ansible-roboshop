@@ -1,0 +1,8 @@
+[mongodb]
+mongodb.joindevops.org
+
+[catalogue]
+catalogue.joindevops.org
+
+[web]
+web.joindevops.org
