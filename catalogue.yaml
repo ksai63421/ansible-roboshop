@@ -15,14 +15,14 @@
 
   - when: out.rc != 0
     name: create user roboshop
-    become: yes # we need sudo access for this task only
-    ansible.builtin.user:
+     become: yes # we need sudo access for this task only
+     ansible.builtin.user:
      name: roboshop
 
   - name: check /app directory exist or not
     ansible.builtin.stat:
      path: /app
-    register: directory
+     register: directory
 
   - name: print the directory stats
     ansible.builtin.debug:
