@@ -21,3 +21,6 @@ mysql.joindevops.org
 
 [shipping]
 shipping.joindevops.org
+
+[rabbitmq]
+rabbitmq.joindevops.org
