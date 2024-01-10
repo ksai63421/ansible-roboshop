@@ -12,9 +12,9 @@
     - python3-devel
 
    - when: out.rc != 0
-    name: create user roboshop
-    become: yes # we need sudo access for this task only
-    ansible.builtin.user:
+     name: create user roboshop
+     become: yes # we need sudo access for this task only
+     ansible.builtin.user:
       name: roboshop
 
   - name: check /app directory exists or not
