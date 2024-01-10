@@ -24,3 +24,6 @@ shipping.joindevops.org
 
 [rabbitmq]
 rabbitmq.joindevops.org
+
+[payment]
+payment.joindevops.org
