@@ -9,3 +9,6 @@ web.joindevops.org
 
 [redis]
 redis.joindevops.org
+
+[user]
+user.joindevops.org
