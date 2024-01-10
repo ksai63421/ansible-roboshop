@@ -44,23 +44,23 @@
     args:
      chdir: /app
 
-  - name: copy shipping service
-    ansible.builtin.copy:
+   - name: copy shipping service
+     ansible.builtin.copy:
      src: shipping.service
      dest: /etc/systemd/system/shipping.service  
 
    - name: deamon reload
-    ansible.builtin.systemd:
+     ansible.builtin.systemd:
       daemon_reload: true
 
-  - name: restart catalogue
-    ansible.builtin.service:
+   - name: restart catalogue
+     ansible.builtin.service:
       name: shipping
       state: restarted
       enabled: true
 
-  - name: Install MySQL client
-    ansible.builtin.yum:
+   - name: Install MySQL client
+     ansible.builtin.yum:
       name: mysql
       state: installed
 
