@@ -12,3 +12,6 @@ redis.joindevops.org
 
 [user]
 user.joindevops.org
+
+[cart]
+cart.joindevops.org
